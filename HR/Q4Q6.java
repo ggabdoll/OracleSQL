@@ -59,6 +59,6 @@ public class Q4Q6 {
 	 GROUP BY l.CITY
 	HAVING COUNT(*) < 10
 	 ORDER BY AVG(e.SALARY) ASC;
-
+wk 
 
 }
