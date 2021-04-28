@@ -1,0 +1,14 @@
+package HR;
+
+public class Section07 {
+	
+	--Section 07
+
+	--01¹ø
+
+	SELECT EXTRACT(MONTH FROM e.HIRE_DATE) || '¿ù'AS ¿ù
+	FROM EMPLOYEES e, DEPARTMENTS d 
+	GROUP BY EXTRACT(MONTH FROM e.HIRE_DATE)
+	ORDER BY EXTRACT(MONTH FROM e.HIRE_DATE) ; 
+
+}
